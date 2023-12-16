@@ -4,8 +4,6 @@ const publishTopic = 'Matheus/URA'
 var ledIsOn = false
 var msg = 'off'
 const options = {
-  username: 'mqtt',
-  password: 'lar_mqtt',
   keepalive: 60,
   clientId: clientId,
   protocolId: 'MQTT',
